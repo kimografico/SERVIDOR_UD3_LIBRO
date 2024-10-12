@@ -1,0 +1,96 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+input, select, textarea, button {
+    margin-bottom: 10px;
+    margin-top: 3px;
+    min-width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 0px;
+    background-color:rgb(238, 232, 226);
+    transition: 0.5s;
+}
+form{
+    background-color:rgb(202, 184, 159);
+    padding: 20px;
+    max-width: 100%;
+    width: 310px;
+    border-radius: 30px;
+
+}
+textarea{
+    resize: vertical;
+    padding: 10px;
+    margin-top: 4px;
+    min-width: 290px;
+    border-radius: 20px 0px 0px 20px;
+}
+input[type="submit"], button[type="submit"] {
+    color: white;
+    background-color:rgb(141, 129, 111);
+    transition: 1s;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover {
+    color: white;
+    background-color:darkgreen;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input:hover, select:hover, textarea:hover {
+    background-color:white;
+    transition: 0.5s;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-top: 3px;
+    width: 250px;
+    position: absolute;
+}
+
+.error::before {
+    content: "⚠️"; 
+    margin-right: 5px;
+}
+
+.ficha{
+    background-color:rgb(202, 184, 159);
+    padding: 25px;
+    border-radius: 25px;
+    max-width: 300px;
+    text-align: justify;
+}
+
+.ficha strong{
+    color:rgb(131, 121, 106);
+}
+
+.ficha img{
+    height: 300px;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+.botonsolo{
+    padding: 0px;
+    margin-top: 25px;
+}
+
+input[type="file"] {
+    padding: 3px 0px;
+    border-radius: 0px;
+    background-color:rgb(202, 184, 159);
+    transition: 0.5s;
+}
+
+select {
+    width: 310px ;
+}
